@@ -1,0 +1,107 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the fixed navbar */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: green; /* Background color of the navbar */
+    padding: 10px 20px; /* Padding inside the navbar */
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Center items vertically */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styles for the left section of the navbar */
+.navbar-left {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the right section of the navbar */
+.navbar-right {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the links inside the navbar */
+.navbar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}
+
+/* Hover effect for the links */
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Styles for the main content area */
+.main {
+    margin-top: 60px; /* Adjust this value based on the height of your navbar */
+    padding: 20px;
+}
+
+/* Specific styles for the logo link */
+#logo {
+    font-weight: bold; /* Make the logo text bold */
+    font-size: 24px; /* Increase the font size of the logo */
+}
+
+/* Specific styles for the login link */
+#login {
+    font-size: 18px; /* Font size for the login link */
+}
+
+/* Styles for the form */
+form {
+    max-width: 600px; /* Maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color of the form */
+}
+
+/* Styles for the form labels */
+form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 8px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+/* Styles for the form inputs */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border around inputs */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styles for the submit button */
+form input[type="submit"] {
+    background-color: green; /* Background color of the button */
+    color: white; /* Text color of the button */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the submit button */
+form input[type="submit"]:hover {
+    background-color: #575757; /* Darker background on hover */
+}
